@@ -9,11 +9,11 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/',
+  base: '/gitprofile/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Projets GitHub',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
@@ -29,30 +29,30 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Mes projets',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Noham Rivoirard',
+    title: 'Portfolio de Noham Rivoirard',
     description: '',
     imageURL: 'https://avatars.githubusercontent.com/u/100566912?v=4',
   },
@@ -72,13 +72,14 @@ const CONFIG = {
     telegram: '',
     website: 'https://noh.am',
     phone: '',
-    email: 'noham.rivoirard@gmail.com',
+    email: 'noham@noh.am',
   },
   resume: {
     fileUrl:
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Python',
     // 'PHP',
     // 'Laravel',
     'JavaScript',
@@ -90,47 +91,47 @@ const CONFIG = {
     'Git',
     'Docker',
     // 'PHPUnit',
+    'HTML',
     'CSS',
     // 'Antd',
-    'Tailwind',
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'September 2021',
+    //   to: 'Present',
+    //   companyLink: 'https://example.com',
+    // },
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'July 2019',
+    //   to: 'August 2021',
+    //   companyLink: 'https://example.com',
+    // },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    // {
+    //   institution: 'Institution Name',
+    //   degree: 'Degree',
+    //   from: '2015',
+    //   to: '2019',
+    // },
+    // {
+    //   institution: 'Institution Name',
+    //   degree: 'Degree',
+    //   from: '2012',
+    //   to: '2014',
+    // },
   ],
   // Display articles from your medium or dev account. (Optional)
   // blog: {
@@ -216,7 +217,7 @@ const CONFIG = {
   //     rel="noreferrer"
   //   >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
